@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: agentic-embabel
+  main:
+    allow-bean-definition-overriding: true
+  docker:
+    compose:
+      enabled: false
+
+server:
+  port: 8080
+
+# Logging
+logging:
+  level:
+    com.ggardet.agenticembabel: INFO
+    com.embabel: INFO
